@@ -16,7 +16,7 @@ var autocomplete = Autocomplete.Process(words);
 var matches = autocomplete.Match("b");
 
 // returns: "blade", "black", "blue", "blazer" 
-var matches = autocomplete.Match("bl");
+matches = autocomplete.Match("bl");
 
 // returns: "blade", "black", "blazer" 
 matches = autocomplete.Match("bla");
