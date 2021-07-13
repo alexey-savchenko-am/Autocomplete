@@ -4,7 +4,7 @@ Splits an array of words into symbol's tree and allows quickly search data by ke
 
 # Usage
 
-```
+```csharp
 var words = new string[]
 {
   "rose", "blade", "black", "alphabet", "blue", "bold", "ring", "banana", "blazer" 
